@@ -5,6 +5,13 @@
  * to style up the website so it is useable.
  */
 
+/* Poor person's normalize */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     display: none;
