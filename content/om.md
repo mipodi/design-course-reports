@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,13 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
-
-Skriv några kloka ord om kursen?
-
-Lägg till en representativ bild för kursen, enligt ditt egna val.
+Den här kursen är en del av kurspaketet om programmering och databaser på Blekinge Tekniska Högskola. Kursen heter Teknisk webbdesign och användbarhet. Den är även känd som enbart design i folkmun.
 
 [FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]

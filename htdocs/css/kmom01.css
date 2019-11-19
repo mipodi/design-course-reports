@@ -12,6 +12,14 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: green;
+}
+
+body {
+    background-color: yellow;
+}
+
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     display: none;
@@ -19,5 +27,15 @@
 
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
+    display: none;
+}
+
+.wrap-all {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+.site-logo {
     display: none;
 }
