@@ -14,7 +14,10 @@ views:
 Min me-sida i kursen design
 =========================
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/me.jpg?w=200" class="right" caption="Bild på mig"]
+
+<!-- [FIGURE src=image/design.jpg?w=300 caption="Designat mönster"]
+[FIGURE src=image/me.jpg caption="Designat mönster"] -->
 
 Hej!  Det här är en så kallad me-sida i en kurs på Blekinge Tekniska Högskola. Här kommer därför först en presentation av mig som går den.
 
