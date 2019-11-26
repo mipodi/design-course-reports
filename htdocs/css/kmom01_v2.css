@@ -1,0 +1,254 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Poor person's normalize */
+/* Container */
+/* .wrap-all {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: beige;
+} */
+/* Sidebars */
+/* Main */
+/* Footer */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #424242;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+  font: 100.01%/1 serif;
+}
+img {
+  max-width: 100%;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+/* .wrap-all {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: beige;
+} */
+.inner-wrap-main {
+  padding: 30px 0;
+}
+.outer-wrap {
+  width: 100%;
+  overflow: auto;
+}
+.outer-wrap.outer-wrap-header {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+.inner-wrap {
+  width: 60%;
+  margin: 0 auto;
+}
+/* Sidebars */
+.region-sidebar-right {
+  float: right;
+  display: inline;
+  width: 30%;
+}
+.region-sidebar-left {
+  float: left;
+  width: 30%;
+  margin-right: 20px;
+  padding-right: 20px;
+  list-style-type: none;
+}
+.my-navbar {
+  padding-top: 10px;
+  list-style-type: none;
+}
+.my-navbar li {
+  display: inline;
+  padding: 2px 10px;
+}
+.row::after {
+  clear: both;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * Modules
+ */
+p {
+  margin-bottom: 24px;
+}
+.inner-wrap-header {
+  max-width: 100%;
+}
+.outer-wrap-header {
+  background-color: #f6fffb;
+  overflow: auto;
+}
+.region-header-col-1,
+.region-header-col-3 {
+  width: 20%;
+  float: left;
+}
+.region-header-col-2 {
+  width: 60%;
+  float: left;
+}
+.site-logo {
+  display: none;
+}
+.region-flash {
+  overflow: auto;
+}
+.outer-wrap-footer {
+  background-color: #333;
+  color: #ccc;
+  margin-top: 40px;
+}
+.inner-wrap-footer {
+  padding: 30px 0;
+}
+.region-footer > .block {
+  padding-top: 30px;
+  width: 100%;
+  text-align: center;
+  display: inline;
+  float: left;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+.site-footer a {
+  color: #fff;
+}
+.footer-column-wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.footer-column {
+  display: inline;
+  float: left;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+}
+.footer-column,
+.footer-column-x {
+  height: 100%;
+}
+.author-byline {
+  /* border: 1px solid #ccc;
+    margin-bottom: 46px;
+    background-color: green; */
+  color: #384044;
+  background-color: #fff;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+  border-radius: 0.8rem;
+  padding: 2em;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.8rem;
+  width: 80%;
+  clear: both;
+}
+.author-byline::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+figure.figure.left {
+  float: left;
+  /* margin-right: 8px; */
+  margin-right: 1.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 8px;
+}
+ul.toc {
+  list-style-type: none;
+}
+/**
+ * My own settings, not currently in their own module.
+ */

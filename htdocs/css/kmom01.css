@@ -66,9 +66,12 @@ p {
     list-style-type: none;
 }
 
+
 ul.toc {
     list-style-type: none;
 }
+
+
 
 
 /* Header */
@@ -154,6 +157,7 @@ figure.figure.right {
 .outer-wrap-footer {
     background-color: #333;
     color: #ccc;
+    margin-top: 40px;
 }
 
 .inner-wrap-footer {

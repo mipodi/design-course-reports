@@ -1,0 +1,84 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+/* .wrap-all {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: beige;
+} */
+
+.inner-wrap-main {
+    padding: 30px 0;
+}
+
+.outer-wrap {
+    width: 100%;
+    overflow: auto;
+}
+
+.outer-wrap.outer-wrap-header {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.inner-wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+
+// /* Hide submenu, leave this to kmom02 */
+// .rm-desktop ul {
+//     display: none;
+// }
+//
+// /* Hide responsive/mobile menu, leave this to kmom02 */
+// .rm-navbar-max {
+//     display: none;
+// }
+
+/* Sidebars */
+
+.region-sidebar-right {
+    float: right;
+    display: inline;
+    width: 30%;
+}
+
+.region-sidebar-left {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+}
+
+.my-navbar {
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+.my-navbar li {
+    display: inline;
+    padding: 2px 10px;
+}
+
+.row::after {
+    clear: both;
+}
