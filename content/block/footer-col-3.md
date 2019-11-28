@@ -1,3 +1,3 @@
-#### Footer col 3
+#### Lifehack no 3
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+När du kokar pasta, släng i lite broccoli när det är ca fem minuter kvar och du slipper koka dem separat. Extra bonus för grönsaker!

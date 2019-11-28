@@ -1,3 +1,3 @@
-#### Footer col 1
+#### Lifehack no 1
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Att diska kastruller med mera efterhand samtidigt som du lagar mat kan vara mycket skönt. När du sedan ätit middag så har du bara några tallrikar och bestick kvar.
