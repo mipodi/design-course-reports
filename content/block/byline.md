@@ -6,18 +6,18 @@
 
 <div class="author-byline">
 <figure class="figure left">
-<img src="image/byline.jpg" class="figure left" alt="Maneter">
-
-<!-- <figcaption>
-
-<p>Julia Johansson</p>
-
-</figcaption> -->
+<img src="image/byline.jpg" alt="Maneter">
 </figure>
 
 <h4>Julia Johansson</h4>
-<p>Julia är informationsdesigner med bakgrund inom kommunikation och projektledning. Gillar det meta i citatet "Only a Sith deals in absolutes".</p>
+<p>Julia är informationsdesigner med bakgrund inom kommunikation och projektledning. Gillar det meta i citatet "Only a Sith deals in absolutes". Det går att säga mycket mer men det är också viktigt att dyka ner i koden.</p>
 </div>
+
+
+
+
+
+
 
 <!--
 <a href="https://www.gravatar.com/avatar/02f8a1876759ad09f215055ff17cc318.jpg"><img src="https://www.gravatar.com/avatar/02f8a1876759ad09f215055ff17cc318.jpg?r=pg&amp;d=wavatar&amp;s=80" alt="Mikael Roos"></a>

@@ -31,11 +31,25 @@
 // @import "@desinax/responsive-menu/less/media-queries.less";
 
 
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
 
 /**
  * Base style to affect HTML elements on a general scale.
  */
-@import "base/base.less";
+// @import "base/base.less";
+@import "base/base_kmom03.less";
+
 
 
 /**
@@ -56,22 +70,23 @@
  * and other regions of the page including route specific styles.
  */
 // @import "layout/layout.less";
-@import "layout/responsive.less";
+// @import "layout/responsive.less";
+@import "layout/responsive_vgrid.less";
 @import "layout/regions.less";     // To add style for ?regions
 
 
 /**
  * Modules
  */
-@import "module/typography.less";
+// @import "module/typography.less";
 // @import "module/header_kmom02.less";
-@import "module/flash.less";
+// @import "module/flash.less";
 // @import "module/main.less";
 // @import "module/footer.less";
-@import "module/byline.less";
-@import "module/figures.less";
+@import "module/byline_kmom03.less";
+@import "module/figures_kmom03.less";
 // @import "module/block.less";
-@import "module/tableofcontents.less";
+// @import "module/tableofcontents.less";
 // @import "module/breadcrumb.less";
 
 
@@ -79,6 +94,16 @@
 /**
  * My own settings, not currently in their own module.
  */
-@bgColorHtml: #3fb488;
-@bgColorBody: #acf3d3;
-@colorBody: #333;
+@bgColorHtml: #7069fa;
+@bgColorBody: #f0f4f8;
+@colorBody: #102a43;
+
+// Adapt the grid to my style
+// @fontFamilyBody:     "serif"; // "sans-serif";
+@fontFamilyHeadings: "serif";
+@fontFamilyBody:     "sans-serif";
+@fontFamilyCode:     "monospace";
+
+// Magic number and base fontsize
+@magicNumber:  24px;  // 22px
+@fontSizeBody: 16px;
