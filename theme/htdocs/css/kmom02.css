@@ -5142,6 +5142,9 @@ img {
 /**
  * Modules
  */
+p {
+  margin-bottom: 24px;
+}
 .inner-wrap-header {
   max-width: 100%;
 }

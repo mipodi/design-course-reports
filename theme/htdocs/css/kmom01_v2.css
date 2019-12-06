@@ -522,6 +522,9 @@ img {
 /**
  * Modules
  */
+p {
+  margin-bottom: 24px;
+}
 .region-header-col-1 {
   float: left;
   width: 30%;
