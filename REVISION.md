@@ -1,6 +1,11 @@
 Revision history
 ====================
 
+v3.0.0 (2019-12-06)
+--------------------
+* Rehaul for vertical and typographic grids.
+
+
 v2.0.0 (2019-11-28)
 --------------------
 * Adapts to responsiveness and all of kmom02 req.
