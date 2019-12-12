@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom04 - minimalistic.
+ * Stylesheet for design kmom04 - colorful.
  *
  * This stylesheet is for the design course and kmom04 where we use LESS.
  */
@@ -5005,15 +5005,15 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #fff;
+  background-color: #85144B;
   font-size: 100%;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #fff;
-  font: 16px/1.5 'Source Sans Pro', sans-serif;
+  color: #FFDC00;
+  background-color: #85144B;
+  font: 16px/1.5 'Cardo', serif;
 }
 img {
   max-width: 100%;
@@ -5024,7 +5024,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5697,38 +5697,35 @@ figure.figure.right {
  * My own settings, not currently in their own module.
  */
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Cardo';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
+  src: local('Cardo'), local('Cardo-Regular'), url(https://fonts.gstatic.com/s/cardo/v11/wlp_gwjKBV1pqhv43IQ.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Oswald';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-display: swap;
-  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf) format('truetype');
-}
-h1,
-h2,
-h3,
-h4 {
-  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/oswald/v29/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiYA.ttf) format('truetype');
 }
 .outer-wrap-footer {
-  background-color: #fff;
+  background-color: #85144B;
+}
+.row {
+  background-color: #85144B;
 }
 a {
   color: #212833;
 }
 /* unvisited link */
 a:link {
-  color: #5ACC4E;
+  color: #01FF70;
 }
 /* visited link */
 a:visited {
-  color: #388030;
+  color: #aaa;
 }
 /* mouse over link */
 a:hover {
@@ -5739,6 +5736,9 @@ a:hover {
 /* selected link */
 a:active {
   color: #5ACC4E;
+}
+code {
+  color: #85144B;
 }
 fieldset {
   border-width: 0px;
@@ -5754,7 +5754,9 @@ fieldset legend {
   display: none;
 }
 .site-logo-text a {
-  color: green;
+  color: #FFDC00;
+  text-decoration: none;
+  text-transform: uppercase;
   padding-left: 2em;
 }
 .region-header-col-1 {
@@ -5766,8 +5768,9 @@ fieldset legend {
 .region-header-col-2 {
   padding: 50px;
 }
-.my-navbar {
-  display: none;
+.rm-default ul li {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+  background-color: #85144b;
 }
 /* Main and sidebars */
 /* Standard for main */

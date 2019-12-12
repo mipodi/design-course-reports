@@ -1,5 +1,5 @@
 /*!
- * Stylesheet for design kmom04 - minimalistic.
+ * Stylesheet for design kmom04 - dark.
  *
  * This stylesheet is for the design course and kmom04 where we use LESS.
  */
@@ -5005,15 +5005,15 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #fff;
+  background-color: #222222;
   font-size: 100%;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #fff;
-  font: 16px/1.5 'Source Sans Pro', sans-serif;
+  color: #F7F7F7;
+  background-color: #222222;
+  font: 16px/1.5 'Roboto', sans-serif;
 }
 img {
   max-width: 100%;
@@ -5024,7 +5024,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -5697,48 +5697,48 @@ figure.figure.right {
  * My own settings, not currently in their own module.
  */
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Roboto Slab';
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-display: swap;
-  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf) format('truetype');
-}
-h1,
-h2,
-h3,
-h4 {
-  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/robotoslab/v10/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf) format('truetype');
 }
 .outer-wrap-footer {
-  background-color: #fff;
+  background-color: #222222;
+}
+.row {
+  background-color: #222222;
 }
 a {
   color: #212833;
 }
 /* unvisited link */
 a:link {
-  color: #5ACC4E;
+  color: #8EEDD1;
 }
 /* visited link */
 a:visited {
-  color: #388030;
+  color: #aaa;
 }
 /* mouse over link */
 a:hover {
-  color: #fff;
+  color: #F7F7F7;
   text-decoration: underline;
-  background-color: #5ACC4E;
+  background-color: #8EEDD1;
 }
 /* selected link */
 a:active {
-  color: #5ACC4E;
+  color: #8EEDD1;
+}
+code {
+  color: #222222;
 }
 fieldset {
   border-width: 0px;
@@ -5754,7 +5754,9 @@ fieldset legend {
   display: none;
 }
 .site-logo-text a {
-  color: green;
+  color: #8EEDD1;
+  text-decoration: none;
+  text-transform: capitalize;
   padding-left: 2em;
 }
 .region-header-col-1 {
@@ -5766,8 +5768,9 @@ fieldset legend {
 .region-header-col-2 {
   padding: 50px;
 }
-.my-navbar {
-  display: none;
+.rm-default ul li {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+  background-color: #515151;
 }
 /* Main and sidebars */
 /* Standard for main */
@@ -5818,14 +5821,14 @@ fieldset legend {
   margin-right: 0.52083333%;
 }
 .rm-max .rm-mobile {
-  background-color: #fff;
-  color: #333;
+  background-color: #F7F7F7;
+  color: #222222;
 }
 .rm-max .rm-mobile .rm-submenu-button {
-  background-color: #fff;
+  background-color: #F7F7F7;
 }
 body > div > div.outer-wrap.outer-wrap-main > div > div > main > article > figure {
-  color: #333;
+  color: #222222;
   font: 16px/1.5 'Source Sans Pro', sans-serif;
   float: left;
 }

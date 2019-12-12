@@ -1,4 +1,4 @@
-Färganalys av tre webbplatser inom datavisualisering
+Utvärdera färgval och känsla
 =======================
 
 Uppgiften gick ut på välja ut tre webbplatser samt dokumentera deras färgpalett och typografi för att sedan analysera dessa med litteratur som grund samt egna tankar.
@@ -46,8 +46,8 @@ Resultat
 -----------------------
 
 ### Codex Atlanticus
-[FIGURE src=image/codex-atl-1.png?w=400 alt=""]
-[FIGURE src=image/codex-atl-2.png?w=400 alt=""]
+[FIGURE src=image/codex-atl-1.png?w=500 alt=""]
+[FIGURE src=image/codex-atl-2.png?w=500 alt=""]
 
 Denna webbplats har ett tetradfärgschema, den kombinerar alltså två komplimentära färgscheman med varandra enligt The Principles of Beautiful Web Design (Beaird, 2014).
 
@@ -85,7 +85,7 @@ Denna webbplats har en mörk och modern profil med syfte att gräva i gamla arki
 
 
 ### Visual Intro to Machine Learning Part 2
-[FIGURE src=image/visual-intro-ml.png?w=400 alt=""]
+[FIGURE src=image/visual-intro-ml.png?w=500 alt=""]
 
 Den här webbplatsen var lite svårdefinierad. Den kan ses som att den har en monokromatisk färgskala där bakgrunden är vit och all text samt många element är varianter av grå. Där accentfärgerna består av svg-elementen är grön och blå samt enstaka fall röd.
 
@@ -125,8 +125,8 @@ Webbplatsen berör datavisualisering om maskininlärning med syfte att tillgäng
 
 
 ### Market Café Magazine
-[FIGURE src=image/market-cafe-1.png?w=400 alt=""]
-[FIGURE src=image/market-cafe-2.png?w=400 alt=""]
+[FIGURE src=image/market-cafe-1.png?w=500 alt=""]
+[FIGURE src=image/market-cafe-2.png?w=500 alt=""]
 
 Färgschemat här är ett analogt med motsvarande en pajbit av färghjulet med gult, orange och rött såsom Beaird säger i The Principles of Beautiful Web Design (2014). Det finns en rosa som är en variant av den röda. Som accentfärg används grå, men bara för ungefär två knappar. Det är inget svart alls, textelement och paragrafer är röda. Menyn är röd först och sedan vid scrollning byter den färg till gul.
 
@@ -161,11 +161,13 @@ Den större byrån hade ett mer komplext färgschema, kanske kan det höra ihop?
 
 Dynamiken i A visual introduction to machine learning är dock något tunn. Det kan ha med att färgschemat att göra. Den blå, gröna och röda de valt ligger inte på "rätt" plats i färghjulet för att vara en triad i strikt bemärkelse utan är lite skeva.
 
-[FIGURE src=image/color-wheel-vis-intro-1.png?w=400 alt=""]
 
-Så här ser en triad ut byggd med den gröna färgen som bas. Det kanske hade givit mer punch.
+[FIGURE src=image/color-wheel-vis-intro-1.png?w=500 alt=""]
 
-[FIGURE src=image/color-wheel-vis-intro-2.png?w=400 alt=""]
+
+Så här ser en kalkylerad triad ut byggd med den gröna färgen som bas. Det kanske hade givit mer punch.
+
+[FIGURE src=image/color-wheel-vis-intro-2.png?w=500 alt=""]
 
 Market Café Magazine däremot hade mycket punch, något som kan funka när det är bilder till som automatiskt har samma färger. Kanhända att det blir något begränsande att förhålla de färgerna till en större variation av bilder, eller så går det att använda overlays eller gråskala för att funka.
 
