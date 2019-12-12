@@ -1,6 +1,11 @@
 Revision history
 ====================
 
+v4.0.0 (2019-12-12)
+--------------------
+* Theme bonanza and colour reports content.
+
+
 v3.0.0 (2019-12-06)
 --------------------
 * Rehaul for vertical and typographic grids.
