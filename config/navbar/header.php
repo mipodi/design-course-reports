@@ -78,5 +78,29 @@ return [
             "url" => "test",
             "title" => "Testning av markdown m.m.",
         ],
+        [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Rapporter.",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Rapport01",
+                        "url" => "rapport/fargschema",
+                        "title" => "Rapport om färg.",
+                    ],
+                    [
+                        "text" => "Rapport02",
+                        "url" => "rapport/rapport02",
+                        "title" => "Rapport om annat",
+                    ],
+                    [
+                        "text" => "Rapport03",
+                        "url" => "rapport/rapport03",
+                        "title" => "Rapport om annat",
+                    ],
+                ],
+            ],
+        ],
     ],
 ];
