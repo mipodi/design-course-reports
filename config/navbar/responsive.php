@@ -80,6 +80,11 @@ return [
             "title" => "Testning av markdown m.m.",
         ],
         [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg med tema dagens bild.",
+        ],
+        [
             "text" => "Rapport",
             "url" => "rapport",
             "title" => "Rapporter.",
