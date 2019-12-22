@@ -14,8 +14,8 @@ views:
 Julias sida
 =========================
 
-[FIGURE src="image/me.jpg?w=200" class="right" caption="Bild på mig"]
-
+<!-- [FIGURE src="image/me.jpg?w=200" class="right" caption="Bild på mig"] -->
+[FIGURE src="image/me.jpg?w=200&save-as=jpg" caption="Bild på mig." class="figure left w50" alt=" "]
 <!-- [FIGURE src=image/design.jpg?w=300 caption="Designat mönster"]
 [FIGURE src=image/me.jpg caption="Designat mönster"] -->
 

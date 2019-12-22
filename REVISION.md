@@ -1,6 +1,12 @@
 Revision history
 ====================
 
+
+v5.0.0 (2019-12-22)
+--------------------
+* Adds blog and kmom05 requirements.
+
+
 v4.0.0 (2019-12-12)
 --------------------
 * Theme bonanza and colour reports content.

@@ -5,7 +5,7 @@
 
 
 <div class="author-byline">
-<figure class="figure left">
+<figure class="figure left w25">
 <img src="image/byline.jpg" alt="Maneter">
 </figure>
 
@@ -15,7 +15,7 @@
 
 
 
-
+<!-- [FIGURE src="image/byline.jpg" class="figure left w25"] -->
 
 
 

@@ -16,17 +16,17 @@ h4 {
 // }
 
 @colorBody: #F7F7F7;
-@bgColorBody: #222222;
-@bgColorHtml: #222222;
+@bgColorBody: #D64545;
+@bgColorHtml: #D64545;
 @accentBgColor: #F7F7F7;
 @accentFontColor: #F7F7F7;
 
 .outer-wrap-footer {
-    background-color: #222222;
+    background-color: #D64545;
 }
 
 .row {
-    background-color: #222222;
+    background-color: #D64545;
 }
 
 @colorH1BorderBottom: #666;
@@ -233,3 +233,37 @@ figure.figure {
 // Magic number and base fontsize
 @magicNumber:  24px;  // 22px
 @fontSizeBody: 16px;
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+figure.figure {
+    @maxContentWidth: 960px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
+/* Horizontal scroll fix */
+// .inner-wrap-header .row {
+// max-width: 100%;
+// }
+
+.region-header,
+.region-flash,
+.inner-wrap-header .row,
+.inner-wrap-flash .row {
+    margin: 0;
+    width: 100%;
+}
