@@ -102,8 +102,8 @@ return [
                     ],
                     [
                         "text" => "Rapport03",
-                        "url" => "rapport/rapport03",
-                        "title" => "Rapport om annat",
+                        "url" => "rapport/designprincip",
+                        "title" => "Rapport om designprinciper",
                     ],
                 ],
             ],
