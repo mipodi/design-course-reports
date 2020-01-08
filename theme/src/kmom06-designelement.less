@@ -1,0 +1,106 @@
+/*!
+ * Stylesheet for design kmom06.
+ *
+ * This stylesheet is for the design course and kmom06 where we use LESS.
+ */
+
+
+// @import "mixin/clearfix.less";
+// .clearfix() {
+//     #design-mixin.clearfix();
+// }
+
+
+@import "normalize.css/normalize.less";
+
+@import "@fortawesome/fontawesome-free/less/fontawesome.less";
+@import "@fortawesome/fontawesome-free/less/solid.less";
+@import "@fortawesome/fontawesome-free/less/brands.less";
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+// @import "module/kmom01.less";
+@import "module/stylechooser.less";  // Just an example module
+
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+// @import "@desinax/responsive-menu/less/media-queries.less";
+
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+// @import "base/base.less";
+@import "base/base_kmom03.less";
+
+
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid.less";
+
+// Default grid, change to fit your requirements.
+// @columnWidth:   30;
+// @gutterWidth:   10;
+// @columns:       24;
+// @gridType:      "float"; // "flex"
+
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+// @import "layout/layout.less";
+// @import "layout/responsive.less";
+@import "layout/responsive_vgrid.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+
+/**
+ * Modules
+ */
+// @import "module/typography.less";
+// @import "module/header_kmom02.less";
+// @import "module/flash.less";
+// @import "module/main.less";
+// @import "module/footer.less";
+@import "module/byline_kmom03.less";
+// @import "module/figures_kmom03.less";
+// @import "module/block.less";
+// @import "module/tableofcontents.less";
+// @import "module/breadcrumb.less";
+
+
+
+/**
+ * My own settings, not currently in their own module.
+ */
+
+@import "module/kmom06-designelement.less";

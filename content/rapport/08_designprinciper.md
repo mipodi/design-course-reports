@@ -1,4 +1,4 @@
-Designprinciper
+Designprinciper lab
 =======================
 
 Uppgiften gick ut på välja ut tre webbplatser och titta på dem utifrån designprinciper och designelement.
@@ -42,7 +42,7 @@ Den här sajten har extra allt, byter färg, har med runda linjer, rörelse, en 
 
 
 #### Kommentar
-Den japanska byrån Helixes vill sälja sina branding- och kreatörstjänster. Designen går i röd, vit och svart med en minimalistisk känsla och spejsat uttryck.
+Helixes vill sälja sina branding- och kreatörstjänster, en japansk byrå. Designen går i röd, vit och svart med en minimalistisk känsla och spejsat uttryck.
 
 Sajten använder sig av designprinciper som asymmetrisk balans och hierarki med stora rubriker och mycket whitespace, allt genomgående för hela webbplatsen. Mycket rör sig även här, framförallt med hjälp av effekter, de har linjer som skruvar sig och ormar sig över sidan. En spejsad effekt är att när du för muspekaren över en bild så blir den till som en slags vattenpöl.
 

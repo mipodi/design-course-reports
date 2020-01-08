@@ -105,6 +105,16 @@ return [
                         "url" => "rapport/designprincip",
                         "title" => "Rapport om designprinciper",
                     ],
+                    [
+                        "text" => "Rapport04",
+                        "url" => "rapport/designelement",
+                        "title" => "Rapport om designelement lab",
+                    ],
+                    [
+                        "text" => "Rapport05",
+                        "url" => "rapport/designprinciper",
+                        "title" => "Rapport om designprinciper lab",
+                    ],
                 ],
             ],
         ],
