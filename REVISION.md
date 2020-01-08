@@ -1,6 +1,10 @@
 Revision history
 ====================
 
+v6.0.0 (2020-12-08)
+--------------------
+* Adds 3 reports, two new themes and kmom06 requirements.
+
 
 v5.0.0 (2019-12-22)
 --------------------

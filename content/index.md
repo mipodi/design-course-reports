@@ -11,7 +11,7 @@ views:
                 route: block/byline
 
 ---
-Julias sida
+Hej!
 =========================
 
 <!-- [FIGURE src="image/me.jpg?w=200" class="right" caption="Bild på mig"] -->
@@ -19,4 +19,4 @@ Julias sida
 <!-- [FIGURE src=image/design.jpg?w=300 caption="Designat mönster"]
 [FIGURE src=image/me.jpg caption="Designat mönster"] -->
 
-Hej!  Det här är en me-sida i en kurs på Blekinge Tekniska Högskola. Jag heter Julia och jag jobbar med visualisering och informationsdesign. Ofta är det arbetet kopplat till forskning och utbildning. När jag inte gör det så äter jag tårta eller meckar lite med Arduino. Kanske läser jag en sf-bok, eller ja, det är stor sannolikhet där! Jag kom ganska sent in på programmering men nu är jag biten. Det hör ju också ganska bra ihop med visualisering på olika sätt.
+Det här är en me-sida i en kurs på Blekinge Tekniska Högskola. Jag heter Julia och jag jobbar med visualisering och informationsdesign. Ofta är det arbetet kopplat till forskning och utbildning. När jag inte gör det så äter jag tårta eller meckar lite med Arduino. Kanske läser jag en sf-bok, eller ja, det är stor sannolikhet där! Jag kom ganska sent in på programmering men nu är jag biten. Det hör ju också ganska bra ihop med visualisering på olika sätt.

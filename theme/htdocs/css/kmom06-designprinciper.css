@@ -5005,14 +5005,14 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #D64545;
+  background-color: #FFDC00;
   font-size: 100%;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #F7F7F7;
-  background-color: #D64545;
+  color: #3E4C59;
+  background-color: #FFDC00;
   font: 16px/1.5 'Roboto', sans-serif;
 }
 img {
@@ -5709,38 +5709,51 @@ hr::after {
   src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Roboto Slab';
+  font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/robotoslab/v10/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rm.ttf) format('truetype');
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype');
+}
+h2,
+h3,
+h4 {
+  color: #3E4C59;
+}
+h1 {
+  font-size: 8rem;
+  font-weight: 700;
+  word-break: break-all;
+  word-break: break-word;
+  hyphens: auto;
+  color: white;
 }
 .outer-wrap-footer {
-  background-color: #D64545;
+  background-color: #FFDC00;
 }
 .row {
-  background-color: #D64545;
+  background-color: #FFDC00;
 }
 a {
   color: #212833;
 }
 /* unvisited link */
 a:link {
-  color: #8EEDD1;
+  color: #7B8794;
 }
 /* visited link */
 a:visited {
-  color: #aaa;
+  color: #3E4C59;
 }
 /* mouse over link */
 a:hover {
   color: #F7F7F7;
   text-decoration: underline;
-  background-color: #8EEDD1;
+  background-color: #3E4C59;
 }
 /* selected link */
 a:active {
-  color: #8EEDD1;
+  color: #3E4C59;
 }
 code {
   color: #222222;
@@ -5759,10 +5772,13 @@ fieldset legend {
   display: none;
 }
 .site-logo-text a {
-  color: #8EEDD1;
+  color: #3E4C59;
   text-decoration: none;
   text-transform: capitalize;
   padding-left: 2em;
+}
+.site-logo-text a:hover {
+  color: #fff;
 }
 .region-header-col-1 {
   padding: 50px;
@@ -5849,6 +5865,9 @@ figure.asciinema,
 figure.codepen,
 figure.figure-codepen {
   margin-left: 0px;
+}
+figure.figure img {
+  margin-right: 50px;
 }
 figure.figure,
 figure.asciinema,
@@ -6078,4 +6097,27 @@ figure.figure.right {
 .inner-wrap-flash .row {
   margin: 0;
   width: 100%;
+}
+.region-header-col-2 {
+  text-align: right;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.rm-desktop li a {
+  padding: 0.5rem;
+  text-shadow: 8px 7px 3px #fbd;
+}
+.rm-default li {
+  font-weight: 700;
+}
+.rm-default ul li {
+  background-color: #fff;
+}
+.rm-default ul li a {
+  text-shadow: none;
+}
+@media screen and (max-width: 750px) {
+  h1 {
+    font-size: 4rem;
+  }
 }
