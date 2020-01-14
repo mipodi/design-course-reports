@@ -1,6 +1,12 @@
 Revision history
 ====================
 
+
+v10.0.0 (2020-12-14)
+--------------------
+* Adds final design report and req for kmom10.
+
+
 v6.0.0 (2020-12-08)
 --------------------
 * Adds 3 reports, two new themes and kmom06 requirements.
